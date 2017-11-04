@@ -95,7 +95,7 @@ $(function() {
         
         // One entry at least
         it('At least a single .entry', function (done) {
-            var Entrys = $('.entry').length;
+            var Entrys = $('.feed .entry').length;
             expect(Entrys).toBeGreaterThan(0);
             done();
         });
